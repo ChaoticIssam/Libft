@@ -60,17 +60,3 @@ char	**ft_split(char const *s, char c)
 	return (p[l] = NULL, p);
 }
 
-int main()
-{
-    unsigned long i;
-    i = 0;
-    char    s[] = "fbebfue efbeufb afeueuf";
-    char    **p = ft_split(s, ' ');
-    while (i < 3)
-    {
-        printf("string 1:%s\n", p[0]);
-        printf("string 2:%s\n", p[1]);
-        printf("string 3:%s\n", p[2]);
-        break;
-    }
-}
